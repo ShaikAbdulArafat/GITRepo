@@ -59,4 +59,39 @@ Adding Code(files/documents) to local Repo and Pushing the changes to Remote Rep
 		1. Use 'git status', If you see ant untracked files in your local you are able to push your changes to Remote repo
 		2. Use 'git add XXXXX.txt/py/java/any file name'
 		3. We should add the file available in project folder that we are willing to push in the above command 
-		4. 
+		4.  If the command run succesfully we see nothing in the cmd prompt.
+		5. Use 'git status' to check the fie status that we added just now. We will see that changes need to be committed are the file that we added
+		6. The file is not yet stored in remote repo. To do that we have to do the following step.
+		7. Use 'git commit -m "use your appropriate commments while committing any code"
+		8. Check the 'git status' now. You will see nothing to commit statement
+		9. If you go back to your www.github.com remote repo and refresh page you can't see you chages affected to your central repo.
+		10. To see your local changes commiited in your central repo you need to push your changes to remote repo
+
+Pushing the Local changes to Remote Repo:
+	
+		1. Use 'git push origin master' to push your local changes to remote
+		2. If promted you need to give your github credentials here
+		3. Now if you see your remote repo you will find your changes there.
+
+Cloning/Copying an Existing Project :
+
+		1. Create a Folder where you want to Clone/Copy your project
+		2. Open cmd prompt and navigate to the clone location
+		3. Use 'git clone "https://xxx/xxx/xxx.git"' 
+		4. Now we can use this clone repo to make changes and adding committing and pushing to master.
+Branching :
+		1. Navigate to 'http:\\www.github.com', In the Central Repo we see an option Branch:master drop odwn
+		2. Click the Branch:master dropdown button and create a new branch 'xxxxx'.
+		3. Now we have created a copy of master branch.
+	
+		Checkout Command :
+		
+		a. Check the status from your current root directory of project you find you are in master.
+		b. If we want to switch to a branch use command 'git checkout -b "BranchName"'
+		c. Check git status here you find you are not in master rather you are in Brance
+
+	
+GIT Commands :
+		1. 'git log' -> To see all the commits log of your current repo.
+		2.
+
