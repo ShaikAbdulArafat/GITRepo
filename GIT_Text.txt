@@ -1,0 +1,62 @@
+							----------------
+							     GIT :
+							----------------
+
+		GIT is a distributed Version Control System.
+
+Basics :
+
+Version Control System:  It allows multiple people work on a project efficiently by keeping a track of changes time-wise,
+			  And by sorting these Versions systematically
+
+GIT : It is a Distributed Version Control Tool that supports non-linear work flow and allows to create local repositary at local Machine.
+	Interacts with Global Repository(GIT Hub)using Commands.
+
+GIT feauers :	
+		1. Non - Linear (Devs can work parallel)
+		2. Allows branching which allows parallel developement.
+		3. It is free(Open Source).
+		4. Compatible with lot of languages & O.S
+		5. Very lite. Doesn't occupy lot of local system resources.
+		6. GIT is quicker when compared with other VCSs (Speed).
+		7. Encrypts all the source code stored in the GIT repository(Secured)
+
+
+Creating a GIT Repo : Creating a Central(Remote) Repository..........
+
+		1. Navigate to www.github.com
+		2. SignUp with a new account. 
+		3. Create a New repository by clicking 'new' button and giving the repo name and details.
+		4. After succesful creation of Central Repo, You will see a 'clone or download' Green button
+		5. In this dropdown button we will have our Central Repo URL which is used to link local project.
+
+Creating GIT Local Repository : 
+
+		1. Navigate to www.git-scm.com
+		2. Download .exe and install (use 'where git'(in windows) / 'which git'(in mac) command in cmd propt to check wethere git is installed or not)
+		3. Opend Cmd prompt and navigate to your project directory
+	       *4. type 'git init' to initialize local repository for the project
+		5. you will see 'Initialised git empty repository' for your project path.
+		6. With this a .git folder will be created in your project folder which will be hidden.
+		7. You can navigate to .git folder in cmd by ' cd .git' and use 'dir' to see the folder structure.
+		8. All the files in .git folder are necessary. Do not delete any of these files.
+		
+Link the Created Local Repo with Remote/Central repo which was created a GitHub :
+
+		1. Navigate to root directory(project folder) of your poject in cmd
+		2. Use 'git remote add origin "https://xxx/xxx/xxx.git"' command 
+		3. You have to use the URL link for above step from Creating a GIT repos 5th Step.
+		4. If the command run succesfully we see nothing in the cmd prompt. That means local repo got linked to global repo
+		5. Use 'git status' command to see the local repo status w.r.t global repo
+
+To Sync Local repo with Central/Remote Repo:
+
+		1. Use 'git pull origin master' 
+		2. use 'git staus' to check the status.
+
+Adding Code(files/documents) to local Repo and Pushing the changes to Remote Repo:
+		
+		1. Use 'git status', If you see ant untracked files in your local you are able to push your changes to Remote repo
+		2. Use 'git add XXXXX.txt/py/java/any file name'
+		3. We should add the file available in project folder that we are willing to push in the above command 
+		4. 
