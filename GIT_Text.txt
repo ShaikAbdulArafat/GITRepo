@@ -53,6 +53,7 @@ To Sync Local repo with Central/Remote Repo:
 
 		1. Use 'git pull origin master' 
 		2. use 'git staus' to check the status.
+		2.a) use 'gir diff filename' to see the modified changes in the file in cmd prompt
 
 Adding Code(files/documents) to local Repo and Committing the changes to Remote Repo:
 		
@@ -107,6 +108,7 @@ Pull Request :
 		
 		1. The changes in branch will be pulled to master when the dev wish the code and good enough to go to master.
 		2. To do this in the remote repo create a pull request and merge all your changes to master branch from your other branch
+		3. git pull otigin branchname
 
 	
 GIT Commands :
